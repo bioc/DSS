@@ -1,5 +1,6 @@
 import( Biobase )
 import( bsseq )
+import(methods)
 
 exportClasses("SeqCountSet") 
 exportMethods(
