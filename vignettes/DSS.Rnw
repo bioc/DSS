@@ -2,18 +2,11 @@
 %\VignettePackage{DSS}                                                                        
 
 \documentclass{article}
+<<style, eval=TRUE, echo=FALSE, results=tex>>=
+    BiocStyle::latex(use.unsrturl=FALSE)
+@                                                                                                   
 
-\usepackage{float}
 \usepackage{Sweave}
-\usepackage[a4paper]{geometry}
-\usepackage{hyperref,graphicx}
-\textwidth=6.5in
-\textheight=9in
-%\parskip=.3cm                                                                                     
-\oddsidemargin=.1in
-\evensidemargin=.1in
-\headheight=-.5in
-\footskip=0.6in
 \renewcommand{\baselinestretch}{1.3}
 
 
