@@ -370,7 +370,7 @@ callDML <- function(DMLresult, delta=0.1, p.threshold=1e-5) {
         scores <- DMLresult$pval
     }
 
-    ix <- scores < p.threshold
+    ix <- which( scores < p.threshold )
     result <- DMLresult[ix,]
 
     ## sort by score
